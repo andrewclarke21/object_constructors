@@ -1,0 +1,62 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.new-book {
+  width: 80px;
+  margin: auto auto;
+  display: block;
+}
+.book-card {
+  margin-top: 30px;
+  width: 300px;
+  background-color: aquamarine;
+  border: cadetblue 2px solid;
+  box-shadow: 5px 5px honeydew;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.book-admittance {
+  display: flex;
+  flex-direction: column;
+}
+.hidden {
+  display: none;
+}
+.book-admittance input {
+  width: 200px;
+}
+.submit {
+  width: 100px;
+  margin: 20px auto 0 auto;
+}
+.error {
+  opacity: 0;
+  margin: 0;
+  font-size: 14px;
+  margin: 3px 0;
+  color: rgba(248, 4, 4, 0.74);
+}
+.show {
+  opacity: 1;
+}
+
+.book-admittance h4 {
+  text-align: center;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* .read-status {
+  margin-right: 5px;
+}
+.remove-book {
+  margin-left: 5px;
+} */
